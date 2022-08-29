@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+p {
+     margin: 30px 15px 10px 0px;
+     padding: 20px;
+     background-color: aquamarine;
+     border: solid 10px red;
+}
+
+h1 {
+     border: double 5px;
+     border-color: orange yellowgreen;
+=======
+p {
+     margin: 30px 15px 10px 0px;
+     padding: 20px;
+     background-color: aquamarine;
+     border: solid 10px red;
+}
+
+h1 {
+     border: double 5px;
+     border-color: orange yellowgreen;
+>>>>>>> 32309ca1e080a82e552bf614b59e0c8a295243b6
+}

@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+h1 {
+     display: block;
+}
+
+p {
+     display: block;
+}
+
+span {
+     color: orange;
+     background-color: black;
+     width: 200px;
+     height: 200px;
+
+     display: block;
+=======
+h1 {
+     display: block;
+}
+
+p {
+     display: block;
+}
+
+span {
+     color: orange;
+     background-color: black;
+     width: 200px;
+     height: 200px;
+
+     display: block;
+>>>>>>> 32309ca1e080a82e552bf614b59e0c8a295243b6
+}

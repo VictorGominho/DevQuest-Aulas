@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+div {
+     width: 100px;
+     height: 100px;
+     padding: 10px;
+     border: 10px solid green;
+}
+
+.com-border-box {
+     background-color: aquamarine;
+     box-sizing: border-box;
+}
+
+.sem-border-box {
+     background-color: brown;
+=======
+div {
+     width: 100px;
+     height: 100px;
+     padding: 10px;
+     border: 10px solid green;
+}
+
+.com-border-box {
+     background-color: aquamarine;
+     box-sizing: border-box;
+}
+
+.sem-border-box {
+     background-color: brown;
+>>>>>>> 32309ca1e080a82e552bf614b59e0c8a295243b6
+}

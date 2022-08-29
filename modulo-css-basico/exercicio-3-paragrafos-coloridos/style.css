@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+* {
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+     display: flex;
+     background-color: rgba(40, 23, 196, 0.658);
+     justify-content: center;
+     padding-top: 30px;
+     border: solid 3px black;
+}
+
+.texto {
+     margin: 40px;
+     padding: 20px;
+}
+
+.padrao {
+     background-color: #f5f5f5;
+}
+
+.destaque {
+     background-color: #f0cce2;
+=======
+* {
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+     display: flex;
+     background-color: rgba(40, 23, 196, 0.658);
+     justify-content: center;
+     padding-top: 30px;
+     border: solid 3px black;
+}
+
+.texto {
+     margin: 40px;
+     padding: 20px;
+}
+
+.padrao {
+     background-color: #f5f5f5;
+}
+
+.destaque {
+     background-color: #f0cce2;
+>>>>>>> 32309ca1e080a82e552bf614b59e0c8a295243b6
+}
