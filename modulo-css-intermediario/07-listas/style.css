@@ -1,0 +1,32 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+ul {
+     /* list-style-image: url(./images/icone.png); */
+     background-color: rgb(145, 94, 0);
+
+     list-style: square url(./images/icone.png);
+
+     list-style-position: inside;
+}
+
+ol {
+     /* list-style-image: url(./images/icone.png); */
+     background-color: paleturquoise;
+
+     list-style: square url(./images/icone.png);
+
+     list-style-position: inside;
+}
+
+ul li {
+     border: 1px solid black;
+     padding: 20px;
+}
+
+ol li {
+     border: 1px solid black;
+     padding: 20px;
+}
