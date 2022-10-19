@@ -1,0 +1,37 @@
+/* seletor:pseudo-classe {
+     propriedade: valor;
+} */
+
+.first p:first-child{
+     color: aquamarine;
+}
+
+.last p:last-child{
+     color: blueviolet;
+}
+
+.not p:not(.padrao){
+     color: yellow;
+}
+
+.nth p:nth-child(odd){
+     color:red;
+}
+
+.nth-last p:nth-last-child(1){
+     color: red;
+}
+
+/* 
+outros parâmetros possíveis:
+even -> os elementos pares
+3n -> seleciona elementos de 3 em 3
+5 -> seleciona o quinto elemento
+n+2 -> seleciona a partir do segundo elemento
+-n+5 -> seleciona até o quinto elemento
+nth-child(n+2):nth-child(-n+5) -> seleciona a partir do segundo e até o quinto elementos 
+*/
+
+.only p:only-child{
+     color: seagreen;
+}
