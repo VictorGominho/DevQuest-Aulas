@@ -1,0 +1,22 @@
+.container {
+     display: flex;
+}
+
+.container.direction {
+     flex-direction: row;
+}
+
+.container.wrap {
+     flex-wrap: wrap;
+}
+
+.container.flow {
+     flex-flow: row wrap;
+}
+
+.container div {
+     background-color: aqua;
+     width: 100px;
+     height: 100px;
+     margin: 10px;
+}
