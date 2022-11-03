@@ -1,0 +1,14 @@
+@media(max-width: 620px) {
+     .lista-de-imagens {
+          display: flex;
+          flex-shrink: 50;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 45px 20px;
+     }
+
+     .imagem-e-info {
+          margin: 0;
+     }
+}

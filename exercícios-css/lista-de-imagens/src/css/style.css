@@ -1,0 +1,58 @@
+body {
+     font-family: 'Public Sans', sans-serif;
+}
+
+.lista-de-imagens {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     height: 100%;
+}
+
+.imagem-e-info {
+     margin: 128px 0;
+}
+
+.imagem {
+     width: 335px;
+     height: 431px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+.info {
+     color: #fff;
+     margin-left: 26px;
+     gap: 5px;
+}
+
+.info.autor {
+     padding-bottom: 20px;
+}
+
+.quadro1 {
+     background-image: url(../img/rome.png);
+}
+
+.quadro2 {
+     background-image: url(../img/boat.png);
+}
+
+.quadro3 {
+     background-image: url(../img/sand-and-sea.png);
+}
+
+.quadro4 {
+     background-image: url(../img/starry-night.png);
+}
+
+.imagem-e-info .titulo {
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.imagem-e-info .autor {
+     font-size: 17px;
+     font-weight: 400;
+}

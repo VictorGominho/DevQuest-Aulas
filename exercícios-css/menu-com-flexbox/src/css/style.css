@@ -1,0 +1,45 @@
+header {
+     font-family: 'Public Sans', sans-serif;
+     display: flex;
+     position: absolute;
+     justify-content: space-between;
+     align-items: center;
+     padding: 45px;
+     width: 100%;
+     height: 100px;
+}
+
+.header-logo {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+
+}
+
+.header-logo h1 {
+     font-size: 20px;
+     font-weight: 800;
+}
+
+.header-items {
+     display: flex;
+     align-items: center;
+     gap: 18px;
+     font-weight: 400;
+     font-size: 15px;
+}
+
+.botao-sobre, .botao-cadastrar {
+     background-color: #5BC241;
+     color: white;
+}
+
+.botao-sobre {
+     padding: 8px 5px;
+}
+
+.botao-cadastrar {
+     padding: 10px 20px;
+     border-radius: 10px;
+     font-weight: 300;
+}
