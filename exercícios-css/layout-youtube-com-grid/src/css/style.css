@@ -1,0 +1,113 @@
+.area-de-video {
+     padding-top: 38px;
+     height: 100vh;
+     display: grid;
+     grid: "video" auto
+     "titulo" 41px
+     "contador-views" 25px
+     "descricao"
+     / 70vw;
+}
+
+.recomendacoes {
+     padding-top: 38px;
+     display: grid;
+     grid: "propaganda" 60px
+     "recomendado1" 80px
+     "recomendado2" 80px
+     "recomendado3" 80px;
+     gap: 20px;
+}
+
+.propaganda {
+     grid-area: propaganda;
+     width: 270px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 11px;
+     background-color: #c4c4c4;
+}
+
+.recomendado1 {
+     grid-area: recomendado1;
+}
+
+.recomendado2 {
+     grid-area: recomendado2;
+}
+.recomendado3 {
+     grid-area: recomendado3;
+}
+
+.recomendado {
+     display: grid;
+     width: 270px;
+     grid: "thumbnail titulo-recomendados"
+     "thumbnail autor-recomendados"
+     "thumbnail views-recomendados"
+     "thumbnail idade-recomendados";
+}
+
+.thumbnail {
+     grid-area: thumbnail;
+     background-color: #c4c4c4;
+}
+
+.titulo-recomendados {
+     grid-area: titulo-recomendados;
+     font-size: 14px;
+}
+
+.autor-recomendados {
+     grid-area: autor-recomendados;
+     font-size: 11px;
+}
+
+.contador-views-recomendados {
+     grid-area: views-recomendados;
+     font-size: 11px;
+}
+
+.idade-do-video-recomendados {
+     grid-area: idade-recomendados;
+     font-size: 11px;
+}
+
+.titulo {
+     font-size: 18px;
+     margin: 12px 0 7px;
+     grid-area: titulo;
+}
+
+.contador-views {
+     font-size: 14px;
+     font-weight: 300;
+     grid-area: contador-views;
+}
+
+.descricao {
+     font-size: 16px;
+     grid-area: descricao;
+}
+
+.video-principal {
+     width: 100%;
+     height: 100%;
+     grid-area: video;
+}
+
+.thumbnail {
+     background-color: #c4c4c4;
+     width: 101px;
+     height: 71px;
+}
+
+main {
+     font-family: 'Roboto', sans-serif;
+     background-color: #f7f7f7;
+     display: flex;
+     justify-content: center;
+     gap: 17px;
+}
+
